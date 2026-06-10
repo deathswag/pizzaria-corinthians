@@ -1,10 +1,12 @@
-import MenuFuncionario from ".../MenuFuncionario/MenuFuncionario"
+import MenuFuncionario from "../MenuFuncionario/MenuFuncionario"
 
 const ListarProduto = () =>{
 
     return (
         <div className="container">
             <MenuFuncionario/>
+
+            <p>Listar Produtos</p>
 
         </div>
     )
